@@ -1,5 +1,4 @@
-from helpers import *
-
+from helpers.Generators import create_random_email, create_random_password, create_random_username
 
 class UsersData:
     email = 'lubitelburgerov@yandex.ru'
@@ -22,15 +21,6 @@ class UsersData:
     ]
 
 class IngredientData:
-    #correct_ingredients_hash_data = {  # Корректные хеши ингредиентов
-        #"ingredients": ["61c0c5a71d1f82001bdaaa6d", "61c0c5a71d1f82001bdaaa6f"]
-    #}
-   # incorrect_ingredients_hash_data = {  # Несуществующие хеши ингредиентов
-       # "ingredients": ["69d5b44abracadabaraf6a76", "609646e4daboradabara2870"]
-   # }
-   #empty_ingredients_data = {  # Null ингредиенты
-       # "ingredients": []
-   #}
 
 
     burger_1 = ['60d3b41abdacab0026a733c6', '609646e4dc916e00276b2870',
